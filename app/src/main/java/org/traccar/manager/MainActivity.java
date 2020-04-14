@@ -21,7 +21,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String PREFERENCE_URL = "url";
+    private static final String PREFERENCE_URL = "http://3.6.46.217:8082/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
